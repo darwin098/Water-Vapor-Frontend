@@ -1,0 +1,1723 @@
+/* ---------- Overall Page styles ---------- */
+.navbar {
+  background-color: #171a21;
+}
+
+#cartThingy {
+  margin-right: 10px;
+  font-size: x-large;
+}
+
+.Main {
+  min-height: 105vh;
+  background-color: rgb(26, 42, 60);
+  color: white;
+}
+
+/* ---------- ReferralSystem styles ---------- */
+#code {
+  text-align: center;
+}
+
+#copytext {
+  background-color: #1b67ff;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 50px;
+}
+/* ---------- Overall nav styles ---------- */
+
+.d-flex {
+  margin-right: 10px;
+}
+
+.Dropdown {
+  margin-right: 10px;
+}
+
+/* ---------- Game Page styles ---------- */
+#GameMain {
+  min-height: 700px;
+  text-align: center;
+}
+
+#GamePage {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: left;
+}
+
+#maingameimg {
+  width: 600px;
+  height: 300px;
+}
+
+#borderline {
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 1px solid black;
+}
+
+#addtocart {
+  background-color: #1b67ff;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 12px;
+}
+
+#descriptionandtext {
+  padding-top: 100px;
+}
+
+#Analyticsandtext {
+  padding-top: 100px;
+}
+
+#wishlistButton {
+  cursor: pointer;
+}
+
+/* ---------- Admin Hub styles ---------- */
+#userid {
+  min-width: 200px;
+}
+#referral {
+  min-width: 200px;
+}
+
+#AdminManage #ManageReferral button {
+  width: 200px;
+}
+#AdminManageGame {
+  margin-left: 860px;
+}
+
+#AdminManage {
+  margin-top: 70px;
+}
+#Admin {
+  display: flex;
+  min-height: 700px;
+}
+
+#AdminManage button {
+  background-color: #1b67ff;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#AdminManageTable {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#AdminManageTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  background-color: #55608f;
+}
+#AdminManageTable #user {
+  min-width: 400px;
+  text-align: center;
+}
+
+#AdminManageTable #type {
+  min-width: 400px;
+  text-align: center;
+}
+#AdminManageTable #action button {
+  background-color: #00c851;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
+table,
+th,
+td {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#AdminManageTable #background-red {
+  background-color: #ff4444;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+#AdminManageTable #background-blue {
+  background-color: #4285f4;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+#AdminManageTable #addGame {
+  background-color: #4285f4;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+#removeAll {
+  background-color: #f44242;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 530px;
+  height: 760px;
+}
+
+#AdminManageTable #description {
+  min-width: 304px;
+}
+
+#AdminManageTable #gamename {
+  min-width: 143px;
+}
+
+#AdminManageTable #price {
+  min-width: 200px;
+}
+#TextGame {
+  width: 500px;
+  height: 40px;
+}
+
+#GameContainer {
+  margin-top: 40px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#buttonAddGame button {
+  background-color: #4285f4;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+}
+#AddingGames {
+  margin-left: 150px;
+}
+
+#buttonAddGame {
+  margin-top: 50px;
+}
+
+/* ---------- ReferralSystem styles ---------- */
+#ReferralSystem {
+  min-height: 700px;
+  text-align: center;
+}
+
+/* ---------- Gift Card styles ---------- */
+#quantityinput {
+  width: 150px;
+}
+
+#usercontainer {
+  margin-bottom: 20px;
+}
+#menu {
+  min-width: 700px;
+  height: 40px;
+}
+
+#giftcard {
+  min-height: 700px;
+  text-align: center;
+}
+
+#amount {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: -100px;
+}
+
+#amount #buttonstyle {
+  background-color: #ffff;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+  height: 40px;
+  width: 100px;
+}
+
+#amount #buttonstyleactive {
+  background-color: #4285f4;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+  height: 40px;
+  width: 100px;
+}
+
+#GiftCardWrapper #buybutton {
+  background-color: #4285f4;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 150px;
+}
+
+#buybuttoncontainer {
+  margin-top: 20px;
+}
+input::placeholder {
+  text-align: left;
+  float: left;
+}
+
+#messagecontainer {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+#textname {
+  width: 700px;
+  height: 40px;
+}
+
+#Message {
+  width: 700px;
+  height: 200px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+#imagegiftcard {
+  margin-top: -100px;
+}
+
+.adoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10000000;
+}
+
+.admodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(62, 69, 82);
+  overflow: auto;
+  border-radius: 10px;
+  outline: none;
+  width: 55%;
+  height: 75%;
+}
+
+#advert-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#advert-img {
+  /* font-size: 100px; */
+  width: 90%;
+  height: 80%;
+}
+
+#advert-content {
+  padding: 10px;
+}
+
+#btn-close {
+  background-color: #ff1b1b;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  /* top: 10%; */
+  /* left: 95%; */
+  margin-left: 95%;
+}
+
+/* ---------- Cart Page styles ---------- */
+#grid {
+  /* width: 97vw; */
+  min-height: 100vh;
+  /* margin-right: 7px; */
+  /* display: block; */
+}
+
+#cartInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: inherit;
+}
+
+/* #card-area {
+  position: relative;
+  left: 19px;
+} */
+
+#title {
+  padding: 20px;
+}
+
+#cart-bottom {
+  text-align: right;
+  /* margin-top: 10px; */
+  width: 97vw;
+}
+
+#btn-add {
+  background-color: #4ac516;
+  border: none;
+  color: white;
+  /* margin-left: 40%; */
+  /* margin-bottom: 10px; */
+  border-radius: 5px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#btn-blue {
+  background-color: #1b67ff;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#btn-red {
+  background-color: #ff1b1b;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#btn-green {
+  background-color: #3ccd2f;
+  border: none;
+  color: white;
+  /* width: 100%; */
+  border-radius: 15px 0px 0px 15px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  top: 10vh;
+}
+
+#discount-input {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+/* ---------- Cart Page Game Card ---------- */
+.cart-indiv-game-section {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  grid-row: 3;
+  grid-column: 2;
+  /* background: rgba(0, 0, 0, 0.2); */
+  background-color: #7097ade9;
+  border-radius: 5px;
+  /* width: 80vw; */
+}
+
+.cart-info-section {
+  display: flex;
+  flex: 1;
+  width: 60vw;
+  height: 25vh;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-game-image {
+  /* display: flex; */
+  /* flex: 5; */
+  height: 25vh;
+  width: 20vw;
+  padding-left: -10%;
+  border-radius: 5px;
+  /* max-width: 125px; */
+}
+
+.cart-game-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart-promoted-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 6vh;
+}
+
+.cart-promo {
+  color: #8bc53f;
+  background-color: #4c6b22;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 15px;
+  font-family: 'Motiva Sans', Sans-serif;
+  font-weight: 300;
+  height: fit-content;
+  margin-left: 30%;
+}
+
+.cart-discounted-price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%;
+}
+
+.cart-old-price {
+  color: #702626;
+  font-size: 30px;
+}
+
+.cart-price {
+  margin-right: 10%;
+  text-align: end;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#discountcode {
+  font-size: 30px;
+}
+
+#originalprice {
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+#game-card {
+  background-color: #7097ade9;
+  /* width: 98vw; */
+  max-width: 850px;
+  height: 30vh;
+  /* padding-left: 5px; */
+  display: table;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+#game-img,
+#game-details,
+#game-price-cart,
+#game-price-wishlist,
+#add-cart {
+  /* background-color: #7097ade9; */
+  float: left;
+  height: 100%;
+  /* padding: 10px; */
+  /* height: 170px; */
+}
+
+#status {
+  padding: 50px;
+}
+
+#game-img {
+  width: 35%;
+  /* margin: 10px; */
+}
+
+#gameImg {
+  width: 10%;
+  height: 10%;
+}
+
+#game-details {
+  width: 35%;
+  margin: auto;
+}
+
+#game-price-cart {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+#game-price-wishlist {
+  width: 15%;
+  text-align: center;
+  /* padding-top: 50px; */
+  margin: auto;
+  justify-content: center;
+}
+
+/* #add-cart {
+  width: 15%;
+  text-align: center;
+} */
+
+#add-cart {
+  /* background-color: #00000047; */
+  /* float: left; */
+  width: 15%;
+  /* margin-top: 100px; */
+  position: relative;
+  left: 0%;
+  top: 0%;
+  font-size: 40px;
+  /* padding: 5px; */
+  border-radius: 15px;
+}
+
+#price-cart {
+  background-color: #00000047;
+  border: none;
+  color: white;
+  width: 50%;
+  border-radius: 15px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 10vh;
+}
+
+#price-wishlist {
+  background-color: #00000047;
+  border: none;
+  color: white;
+  width: 100%;
+  /* height: 10%; */
+  border-radius: 0px 15px 15px 0px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: 25px;
+  top: 10vh;
+}
+
+#game-title,
+#game-rating,
+#game-qty,
+#game-remove-cart,
+#game-remove-wishlist {
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#game-remove-cart,
+#game-remove-wishlist {
+  /* margin-top: 100px; */
+  text-decoration: none;
+  color: #a9c6d7;
+}
+
+#game-remove-cart:hover,
+#game-remove-wishlist:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  grid-row: 4;
+  grid-column: 1/4;
+}
+
+/* ---------- Home Page styles ---------- */
+
+#HomeContent {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+#newest-games {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50vw;
+  max-width: 850px;
+}
+
+#special-offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50vw;
+  max-width: 850px;
+}
+
+@media only screen and (max-width: 600px) {
+  #newest-games {
+    max-width: 95vw;
+  }
+
+  #special-offers {
+    max-width: 90vw;
+  }
+}
+
+/* ---------- End of Home Page styles ---------- */
+
+/* ---------- All Games / search results Page styles ---------- */
+#GamesListContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#header-section {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-sub-header {
+  color: #9099a1;
+  font-family: 'Motiva Sans', Sans-serif;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#filter-section {
+  grid-row: 2;
+  grid-column: 2;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1.25%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  background-color: rgba(103, 193, 245, 0.2);
+  border: 0;
+  border-radius: 2.5px;
+  width: 25vw;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+#search-btn {
+  margin-left: 10px;
+  height: 30px;
+  font-size: 12px;
+  padding: 1px;
+  width: 7.5vw;
+  border: 0;
+  border-radius: 2.5px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#search-btn:hover {
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+}
+
+label {
+  color: #4c6c8c;
+}
+
+#dropdown-area {
+  margin-left: 10px;
+  color: #67c1f5;
+  height: 30px;
+  font-size: 12px;
+  padding: 1px;
+  border: 0;
+  border-radius: 2.5px;
+  background: rgba(103, 193, 245, 0.1);
+}
+
+.game-section {
+  grid-row: 3;
+  grid-column: 2;
+  min-height: calc(100vh - 349px);
+  margin-bottom: 50px;
+  /* margin-top: -75px; */
+}
+
+.indiv-game-section {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  grid-row: 3;
+  grid-column: 2;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.indiv-game-section:hover {
+  border: 1px solid rgba(139, 185, 224, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.game-image {
+  height: 70px;
+  border-radius: 5px;
+  max-width: 125px;
+}
+
+.info-section {
+  display: flex;
+  width: 100%;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-title {
+  width: 20vw;
+}
+
+.date-section {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.games-page-date,
+.games-page-game-name,
+.games-page-game-rating {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  max-height: 6vh;
+}
+
+.promoted-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 6vh;
+}
+
+.game-page-promo {
+  color: #8bc53f;
+  background-color: #4c6b22;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Motiva Sans', Sans-serif;
+  font-weight: 300;
+  height: fit-content;
+  margin-left: 30%;
+}
+
+.games-list-discounted-price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%;
+}
+
+.game-page-old-price {
+  color: #888888;
+}
+
+.game-page-price {
+  margin-right: 10%;
+  text-align: end;
+}
+
+.games-page-date,
+.game-page-price,
+.games-page-game-name {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-section {
+    width: 65vw;
+    /* margin-top: 0; */
+  }
+
+  .adoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10000000;
+  }
+
+  .admodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(62, 69, 82);
+    overflow: auto;
+    border-radius: 10px;
+    outline: none;
+    width: 75%;
+    height: 75%;
+  }
+
+  #advert-text {
+    font-size: 15px;
+  }
+
+  #advert-img {
+    /* font-size: 100px; */
+    width: 90%;
+    height: 80%;
+  }
+
+  #btn-add {
+    background-color: #4ac516;
+    border: none;
+    color: white;
+    /* margin-left: 20%; */
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .game-section {
+    width: 90vw;
+  }
+
+  #filter-section {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    height: fit-content;
+    padding: 6px;
+  }
+
+  #search {
+    width: 50vw;
+  }
+
+  #search-form {
+    margin-bottom: 10px;
+  }
+
+  #search-btn {
+    width: 10vw;
+  }
+
+  .sort-form-section {
+    margin-top: 10px;
+  }
+
+  .date-section {
+    display: none;
+  }
+
+  .game-title {
+    width: 50%;
+  }
+
+  .price {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .cart-price {
+    font-size: 15px;
+  }
+
+  .info-section {
+    display: flex;
+    width: 100%;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .adoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10000000;
+  }
+
+  .admodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(62, 69, 82);
+    overflow: auto;
+    border-radius: 10px;
+    outline: none;
+    width: 75%;
+    height: 55%;
+  }
+
+  .cart-promo {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 10%;
+  }
+
+  #advert-text {
+    font-size: 15px;
+  }
+
+  #advert-img {
+    /* font-size: 100px; */
+    width: 90%;
+    height: 80%;
+  }
+
+  #btn-add {
+    background-color: #4ac516;
+    border: none;
+    color: white;
+    /* margin-left: 10%; */
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  #game-remove-cart {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .cart-info-section {
+    display: flex;
+    flex: 1;
+    width: 60vw;
+    height: 15vh;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cart-game-image {
+    /* display: flex; */
+    /* flex: 5; */
+    height: 15vh;
+    width: 35vw;
+    padding-left: -10%;
+    border-radius: 5px;
+    /* max-width: 125px; */
+  }
+
+  #game-remove-cart {
+    font-size: 10px;
+  }
+
+  .cart-game-name,
+  #game-qty {
+    font-size: 15px;
+  }
+
+  .game-page-promo,
+  .cart-promo {
+    display: none;
+  }
+
+  .cart-old-price {
+    display: none;
+  }
+
+  .cart-discounted-price-section {
+    font-size: 15px;
+    /* position: relative;
+    left: 50%; */
+    margin-left: 55%;
+  }
+
+  .promoted-price .cart-price {
+    justify-content: flex-end;
+    /* font-size: 5px; */
+  }
+
+  .adoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10000000;
+  }
+
+  .admodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(62, 69, 82);
+    overflow: auto;
+    border-radius: 10px;
+    outline: none;
+    width: 95%;
+    height: 55%;
+  }
+
+  #advert-text {
+    font-size: 15px;
+  }
+
+  #advert-img {
+    /* font-size: 100px; */
+    width: 90%;
+    height: 80%;
+  }
+
+  #advert-content {
+    padding: 10px;
+  }
+
+  #btn-add {
+    background-color: #4ac516;
+    border: none;
+    color: white;
+    /* margin-left: 10%; */
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  #game-remove-cart {
+    font-size: 9px;
+  }
+}
+
+.games-list-user-feedback {
+  display: flex;
+  justify-content: center;
+}
+
+#gameslist-no-results-left {
+  color: #9099a1;
+  font-family: 'Motiva Sans', Sans-serif;
+  font-weight: 300;
+  text-decoration: underline;
+  margin-top: 2.5vh;
+}
+/* ---------- End of All Games / search results Page styles ---------- */
+
+/* ---------- Claim keys page styles ---------- */
+#ClaimKeysContent {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh);
+}
+
+#claim-key-title {
+  font-size: 30px;
+  word-wrap: break-word;
+  color: #9099a1;
+  font-family: 'Motiva Sans', Sans-serif;
+  font-weight: 300;
+}
+
+.claim-keys-form-section {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2.5%;
+  height: fit-content;
+  border-radius: 5px;
+  min-width: 60vw;
+}
+
+#claim-key-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#claim-key-label {
+  color: white;
+}
+
+.input-sections {
+  display: flex;
+  margin-top: 5px;
+}
+
+#claim-key-input {
+  background-color: rgba(103, 193, 245, 0.2);
+  border: 0;
+  border-radius: 2.5px;
+  width: 450px;
+  height: 30px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+#claim-key-submit {
+  font-size: 15px;
+  padding: 1px;
+  border: 0;
+  width: 100px;
+  border-radius: 2.5px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#claim-key-submit:hover {
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+}
+
+@media only screen and (max-width: 720px) {
+  .main-claim-key-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  #claim-key-title {
+    width: 90vw;
+  }
+
+  .claim-keys-form-section {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 90vw;
+  }
+
+  #claim-key-input {
+    width: 250px;
+  }
+
+  .input-sections {
+    display: flex;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #claim-key-submit {
+    margin-top: 10px;
+    height: 4vh;
+  }
+}
+/* ---------- End of Claim keys page styles ---------- */
+
+/* ---------- Library Page styles ---------- */
+#LibraryContent {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.printing-key-row {
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5%;
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  width: 50vw;
+}
+
+.printing-key-row:hover {
+  border: 1px solid rgba(139, 185, 224, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.copy-icon {
+  border-radius: 100%;
+  padding: 2.5%;
+  margin: 0;
+}
+
+.copy-icon:hover {
+  background-color: black;
+  cursor: pointer;
+}
+/* ---------- End of Library page styles ---------- */
+
+/* ---------- GiftCardLibrary page styles ---------- */
+
+#giftcardcontainer {
+  text-align: center;
+}
+
+/* ---------- End of GiftCardLibrary page styles ---------- */
+
+/* ---------- ClaimGiftCard page styles ---------- */
+#ClaimGiftCard {
+  text-align: center;
+}
+/* ---------- Footer styles ---------- */
+/* ---------- Add game Page styles ---------- */
+#AddGameContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* ---------- End of Add game Page styles ---------- */
+
+/* ---------- Footer styles ---------- */
+#Footer {
+  width: 100%;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  background-color: #171a21;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+/* ---------- End of Footer styles ---------- */
+
+/* ---------- Registers User / Login User styles ---------- */
+#LoginContent {
+  min-height: 82vh;
+}
+
+#registerContent {
+  min-height: 82vh;
+}
+
+#Regheader,
+#Logheader,
+#Profheader,
+#Fundheader {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#accountInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputHeader {
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Email,
+#ConfirmEmail,
+#Username,
+#Password,
+#ConfirmPassword {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Email,
+#ConfirmEmail,
+#Username,
+#Password,
+#ConfirmPassword {
+  width: 15vw;
+  padding: 5px 15px;
+  border: 0.5px solid;
+  border-radius: 4px;
+}
+
+#PasswordHeader1,
+#PasswordHeader2 {
+  margin-left: -10px;
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Email:focus,
+#ConfirmEmail:focus,
+#Username:focus,
+#Password:focus,
+#ConfirmPassword:focus {
+  border: 3px solid #555;
+}
+
+#passwordSection1,
+#passwordSection2 {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+}
+
+#passwordInput {
+  display: flex;
+  align-items: center;
+}
+
+#RegIcon {
+  margin-left: -30px;
+}
+
+#Icon {
+  margin-left: -30px;
+}
+
+#Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#Back,
+#Create,
+#SignIn,
+#LogIn {
+  padding: 0.5vw 1.2vw;
+  transition-duration: 0.4s;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-left: 11px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#Back:hover,
+#Create:hover,
+#SignIn:hover,
+#LogIn:hover {
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#errorInput {
+  text-align: center;
+}
+/* ---------- End of All Registers User / Login User styles ---------- */
+
+/* ---------- Update User styles ---------- */
+#ProfileInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#UsernameHeader,
+#EmailHeader,
+#PasswordHeader {
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Username_input,
+#Email_input,
+#New_password_input,
+#Confirm_new_password_input {
+  width: 15vw;
+  padding: 5px 15px;
+  border: 0.5px solid;
+  border-radius: 4px;
+}
+
+#Username_input:hover,
+#Username_input:hover,
+#New_password_input:hover,
+#Confirm_new_password_input:hover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Profile_IMG {
+  height: 28vh;
+}
+
+#Update-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ImageInput {
+  width: 50vh;
+  margin-left: 9rem;
+}
+
+#Update {
+  padding: 0.3vw 0.6vw;
+  transition-duration: 0.4s;
+  border-radius: 2px;
+  margin-left: 1.5px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#UpdateInfo {
+  padding: 1vh 3vw;
+  transition-duration: 0.4s;
+  border-radius: 2px;
+  margin-left: 1.5px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#Update:hover {
+  background-color: rgb(26, 42, 60);
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#UpdateInfo:hover {
+  background-color: rgb(26, 42, 60);
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#userProfile {
+  cursor: pointer;
+}
+
+#ImageHeader {
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#UpdateInput {
+  display: flex;
+  align-items: center;
+
+  margin-left: -10px;
+}
+
+#PasswordHeader {
+  margin-left: -10px;
+}
+
+#NewIcon {
+  margin-left: -30px;
+}
+
+#ProfileContent {
+  min-height: 82vh;
+}
+/* ---------- End of All Update User styles ---------- */
+
+/* ---------- Update Funds styles ---------- */
+#FundsContent {
+  min-height: 82vh;
+}
+
+#FundsInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cardHeader {
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#remaining_Funds,
+#Card_Input,
+#Amount_Input {
+  width: 15vw;
+  padding: 5px 15px;
+  border: 0.5px solid;
+  border-radius: 4px;
+}
+
+#Add {
+  padding: 0.5vw 1.2vw;
+  transition-duration: 0.4s;
+  border-radius: 2px;
+  margin-right: 1px;
+  margin-left: 1.5px;
+  color: #67c1f5;
+  background-color: rgba(103, 193, 245, 0.2);
+}
+
+#Add:hover {
+  background-color: rgb(26, 42, 60);
+  background: linear-gradient(135deg, #67c1f5 0%, #417a9b 100%);
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#inputTag {
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ---------- End of All Update Funds styles ---------- */
+
+/* ---------- Messenger styles ---------- */
+
+#messenger-content {
+  min-height: 100vh;
+}
+
+/* ---------- End of All Messenger styles ---------- */
+
+/* ---------- Analytics styles ---------- */
+
+#chart {
+  width: 85vw;
+  height: 70vh;
+  margin-left: 75px;
+  color: white;
+}
+
+.c3 path, .c3 line { 
+  stroke: white;
+}
+
+.c3-axis-y text {
+  fill: white;
+  font-size:12px;
+}
+.c3-axis-x text {
+  fill:white;
+  font-size:12px;
+}
+
+.c3-legend-item {
+  fill: white;
+}
+
+.c3-tooltip-container{
+  color: black;
+  font-weight: bolder;
+}
+
+/* ---------- End of All Analytics styles ---------- */
