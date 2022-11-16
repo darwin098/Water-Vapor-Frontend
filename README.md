@@ -9,5 +9,5 @@
 
 ## Hosting links
 - Heroku: https://ades-ades-ades.herokuapp.com
-- Netlify (Non-react): https://ades-team-5.netlify.app/
 - Netlify (react): https://ades-team-5-react.netlify.app/
+- Backend Repository: https://github.com/darwin098/Water-Vapor-Backend
