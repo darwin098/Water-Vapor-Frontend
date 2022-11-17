@@ -7,17 +7,17 @@ function CarouselComponent(props) {
 
   if (props.type === 'newest') {
     return (
-      <Carousel
-        className="carousel"
-        infiniteLoop={true}
-        autoPlay={true}
-      >
+      <Carousel className="carousel" infiniteLoop={true} autoPlay={true}>
         {data.map((game) => (
-          <div key={game.game_id} onClick={() => { window.location.assign(`/gamepage/${game.game_name}`)}}>
+          <div
+            key={game.game_id}
+            onClick={() => {
+              window.location.assign(`/gamepage/${game.game_name}`);
+            }}
+          >
             <img
               src={
-                'https://ades-ades-ades.herokuapp.com/Images/' +
-                game.game_img_url
+                'https://water-vapor.onrender.com/Images/' + game.game_img_url
               }
             />
             <div className="legend">
@@ -31,17 +31,17 @@ function CarouselComponent(props) {
 
   if (props.type === 'promos') {
     return (
-      <Carousel
-        className="carousel"
-        infiniteLoop={true}
-        autoPlay={true}
-      >
+      <Carousel className="carousel" infiniteLoop={true} autoPlay={true}>
         {data.map((game) => (
-          <div key={game.game_id} onClick={() => { window.location.assign(`/gamepage/${game.game_name}`)}}>
+          <div
+            key={game.game_id}
+            onClick={() => {
+              window.location.assign(`/gamepage/${game.game_name}`);
+            }}
+          >
             <img
               src={
-                'https://ades-ades-ades.herokuapp.com/Images/' +
-                game.game_img_url
+                'https://water-vapor.onrender.com/Images/' + game.game_img_url
               }
             />
             <div className="legend">
@@ -55,17 +55,17 @@ function CarouselComponent(props) {
 
   if (props.type === 'popular') {
     return (
-      <Carousel
-        className="carousel"
-        infiniteLoop={true}
-        autoPlay={true}
-      >
+      <Carousel className="carousel" infiniteLoop={true} autoPlay={true}>
         {data.map((game) => (
-          <div key={game.game_id} onClick={() => { window.location.assign(`/gamepage/${game.game_name}`)}}>
+          <div
+            key={game.game_id}
+            onClick={() => {
+              window.location.assign(`/gamepage/${game.game_name}`);
+            }}
+          >
             <img
               src={
-                'https://ades-ades-ades.herokuapp.com/Images/' +
-                game.game_img_url
+                'https://water-vapor.onrender.com/Images/' + game.game_img_url
               }
             />
             <div className="legend">

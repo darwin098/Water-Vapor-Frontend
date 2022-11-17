@@ -129,8 +129,7 @@ function SingleGameScreen() {
               <img
                 id="maingameimg"
                 src={
-                  'https://ades-ades-ades.herokuapp.com/Images/' +
-                  Game.game_img_url
+                  'https://water-vapor.onrender.com/Images/' + Game.game_img_url
                 }
                 ref={imageRef}
               ></img>

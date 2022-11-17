@@ -79,7 +79,7 @@ function GiftCard() {
                 <img
                   id="imagegiftcard"
                   src={
-                    'https://ades-ades-ades.herokuapp.com/Images/' +
+                    'https://water-vapor.onrender.com/Images/' +
                     GiftCard.giftcard_img_url
                   }
                 ></img>

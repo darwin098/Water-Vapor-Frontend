@@ -32,8 +32,7 @@ function Results(props) {
           >
             <img
               src={
-                'https://ades-ades-ades.herokuapp.com/Images/' +
-                game.game_img_url
+                'https://water-vapor.onrender.com/Images/' + game.game_img_url
               }
               className="game-image"
               alt={game.game_name}

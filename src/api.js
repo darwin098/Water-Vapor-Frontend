@@ -4,9 +4,7 @@ const isLocalhost =
 
 const STORAGE_API_HOST = isLocalhost
   ? `http://localhost:3000`
-  : `https://ades-ades-ades.herokuapp.com`;
-
-// const STORAGE_API_HOST = `https://ades-ades-ades.herokuapp.com`;
+  : `https://water-vapor.onrender.com`;
 
 export function verifyUser(requestToken = localStorage.getItem('token')) {
   const url = new URL(`/check/user`, STORAGE_API_HOST);
@@ -831,7 +829,7 @@ export function addGametoWishlist(game_id) {
           return addGametoWishlist();
         });
       } else {
-        window.location.reload()
+        window.location.reload();
         return res;
       }
     });
@@ -893,7 +891,7 @@ export function deleteWishlistItem(game_id) {
           return deleteWishlistItem();
         });
       } else {
-        window.location.reload()
+        window.location.reload();
         return res;
       }
     });
@@ -1047,7 +1045,7 @@ export function addAdvert(game_id, advert_text) {
           return addAdvert(game_id, advert_text);
         });
       } else {
-        window.location.reload()
+        window.location.reload();
         return res;
       }
     });

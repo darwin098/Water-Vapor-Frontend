@@ -1,7 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { getAllAdvert, removeAllAdvert, removeOneAdvert, addAdvert } from "../api";
-import { QueryClient, QueryClientProvider, useQuery, useMutation } from "react-query";
-import Modal from "react-modal";
+import React, { useEffect, useState } from 'react';
+import {
+  getAllAdvert,
+  removeAllAdvert,
+  removeOneAdvert,
+  addAdvert,
+} from '../api';
+import {
+  QueryClient,
+  QueryClientProvider,
+  useQuery,
+  useMutation,
+} from 'react-query';
+import Modal from 'react-modal';
 import { Carousel } from 'react-responsive-carousel';
 import { Player } from '@lottiefiles/react-lottie-player';
 
@@ -13,9 +23,8 @@ const queryClient = new QueryClient({
   },
 });
 
-
 function AdvertComponent(props) {
-  const data = props.data.rows
+  const data = props.data.rows;
   console.log(data);
   const [isOpen, setIsOpen] = useState(true);
 
@@ -36,7 +45,7 @@ function AdvertComponent(props) {
         closeTimeoutMS={500}
       >
         {/* <button id="btn-close" onClick={toggleModal}>X</button> */}
-        <br/>
+        <br />
         <Carousel
           id="advert-content"
           className="carousel"
@@ -44,14 +53,19 @@ function AdvertComponent(props) {
           autoPlay={true}
         >
           {data.map((game) => (
-            <div key={game.game_id} onClick={() => { window.location.assign(`/gamepage/${game.game_name}`) }}>
-              <img id="advert-img"
+            <div
+              key={game.game_id}
+              onClick={() => {
+                window.location.assign(`/gamepage/${game.game_name}`);
+              }}
+            >
+              <img
+                id="advert-img"
                 src={
-                  'https://ades-ades-ades.herokuapp.com/Images/' +
-                  game.game_img_url
+                  'https://water-vapor.onrender.com/Images/' + game.game_img_url
                 }
               />
-              <br/>
+              <br />
               <div className="legend">
                 <h3 id="aadvert-text">{game.advert_text}</h3>
               </div>
@@ -63,7 +77,7 @@ function AdvertComponent(props) {
           <button id="btn-close" onClick={toggleModal}>X</button>
         </div> */}
       </Modal>
-    )
+    );
   }
 }
 
@@ -107,24 +121,19 @@ function PopUpAdvert() {
             type={'newest'}
           />
         )} */}
-        {
-          getAdvert.isLoading || getAdvert.isRefetching ? (
-            <Player
-              autoplay
-              loop
-              src="https://assets6.lottiefiles.com/packages/lf20_usmfx6bp.json"
-              style={{ height: '300px', width: '300px' }}
-            ></Player>
-          ) : getAdvert.error ? (
-            <p>{getAdvert.error.message}</p>
-          ) : (
-            // console.log(getAdvert.data.rows)
-            <AdvertComponent
-              interval={'1'}
-              data={getAdvert.data}
-            />
-          )
-        }
+        {getAdvert.isLoading || getAdvert.isRefetching ? (
+          <Player
+            autoplay
+            loop
+            src="https://assets6.lottiefiles.com/packages/lf20_usmfx6bp.json"
+            style={{ height: '300px', width: '300px' }}
+          ></Player>
+        ) : getAdvert.error ? (
+          <p>{getAdvert.error.message}</p>
+        ) : (
+          // console.log(getAdvert.data.rows)
+          <AdvertComponent interval={'1'} data={getAdvert.data} />
+        )}
       </div>
     </QueryClientProvider>
   );

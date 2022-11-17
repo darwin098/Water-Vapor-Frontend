@@ -26,7 +26,7 @@ function TotalCost(props) {
     if (wallet >= total_cost) {
       await purchaseGamesInCart.mutate();
       cartLength = 0;
-    //   window.location.reload();
+      //   window.location.reload();
     } else {
       alert('You have insufficient funds!');
     }
@@ -131,7 +131,7 @@ function CartCard(props) {
   let total_cost = 0;
 
   let cartData = props.rows;
-  cartLength = cartData.length
+  cartLength = cartData.length;
   console.log('-------------Cart Data-------------');
   console.log(cartData);
   console.log(cartLength);
@@ -178,7 +178,7 @@ function CartCard(props) {
                   <div>
                     <img
                       src={
-                        'https://ades-ades-ades.herokuapp.com/Images/' +
+                        'https://water-vapor.onrender.com/Images/' +
                         cart.game_img_url
                       }
                       className="cart-game-image"
